@@ -1,9 +1,9 @@
 
 import password from "../assets/password.png"
-import gsla from "../assets/gsla.png"
-import mfc from "../assets/MFC.png"
+import gsla from "../assets/gsla.avif"
+import mfc from "../assets/MFC.avif"
 import maxpro from "../assets/Maxpro.png"
-import SMS from "../assets/School-Management-System.png"
+import SMS from "../assets/School-Management-System.avif"
 const projects = [
     {
         image: gsla,

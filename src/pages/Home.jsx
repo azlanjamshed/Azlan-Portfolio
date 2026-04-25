@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/photo.jpg";
+import photo from "../assets/photo.avif";
 import { Link } from "react-scroll";
 import cv from "/Azlan_Jamshed.pdf";
 const Home = () => {
