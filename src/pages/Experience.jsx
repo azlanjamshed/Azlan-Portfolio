@@ -20,7 +20,7 @@ const Experience = () => {
     // Example of how to add a second experience:
     {
       id: 2,
-      date: "January 2026-Present",
+      date: "January — Present",
       title: "Frontend Developer",
       company: "Elix",
       link: "https://www.elix.it.com",
