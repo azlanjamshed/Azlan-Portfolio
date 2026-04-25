@@ -38,7 +38,7 @@ const projects = [
         title: "School Management System",
         type: "Full Stack (MERN)",
         status: "In Progress",
-        description: "A responsive service website for a cleaning company that showcases residential and commercial cleaning services with an easy-to-use layout and contact options for booking services.",
+        description: "A full-stack School Management System built with the MERN stack to manage students, teachers, classes, and marks. Implemented role-based authentication (Admin, Teacher, Student) with secure backend APIs. Currently developing frontend dashboards for Teacher and Student modules.",
         techStack: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
         gitLink: "https://github.com/azlanjamshed/School-Management-Backend",
     },
