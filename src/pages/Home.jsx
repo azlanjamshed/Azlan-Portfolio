@@ -76,6 +76,8 @@ const Home = () => {
 
             <img
               src={photo}
+              loading="eager"
+              fetchPriority="high"
               alt="Azlan Jamshed"
               className="w-full max-w-[280px] sm:max-w-[340px] md:max-w-[380px] lg:max-w-[400px] rounded-3xl shadow-xl object-cover object-top aspect-square md:aspect-[4/5]"
             />
