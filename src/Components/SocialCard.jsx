@@ -3,6 +3,7 @@ import { IoShareSocialSharp } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 const SocialCard = () => {
   // Array of your social links
   const socials = [
@@ -15,40 +16,25 @@ const SocialCard = () => {
     },
     {
       id: 2,
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/azlan-jamshed-8881162a6/",
+      // Chain Link Icon
+      icon: <FaLinkedin className="w-6 h-6" />,
+    },
+    {
+      id: 3,
       name: "Instagram",
       url: "https://www.instagram.com/azlanjamshed",
       // Chain Link Icon
       icon: <FaInstagram className="w-6 h-6" />,
     },
     {
-      id: 3,
+      id: 4,
       name: "X / Twitter",
       url: "https://x.com/Azlan_Jamshed",
       // At Symbol Icon @
       icon: <FaXTwitter className="w-6 h-6" />,
     },
-    // {
-    //   id: 4,
-    //   name: "Blog / Twitter",
-    //   url: "#",
-    //   // Pen/Scribble Icon
-    //   icon: (
-    //     <svg
-    //       className="w-6 h-6"
-    //       fill="none"
-    //       stroke="currentColor"
-    //       viewBox="0 0 24 24"
-    //       strokeWidth="2"
-    //       strokeLinecap="round"
-    //       strokeLinejoin="round"
-    //     >
-    //       <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
-    //       <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
-    //       <path d="M2 2l7.586 7.586"></path>
-    //       <circle cx="11" cy="11" r="2"></circle>
-    //     </svg>
-    //   ),
-    // },
   ];
 
   return (

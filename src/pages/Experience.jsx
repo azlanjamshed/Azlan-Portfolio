@@ -7,28 +7,29 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      date: "September-2025 — January-2026",
-      title: "Frontend Developer ",
-      company: "Gen2De (General Developer and Designer)",
-      achievements: [
-        "Built responsive user interfaces using React and Tailwind CSS.",
-        "Worked on client-based projects and implemented UI based on requirements.",
-        "Integrated APIs and handled basic state management.",
-        "Improved UI performance and ensured cross-device compatibility.",
-      ],
-    },
-    // Example of how to add a second experience:
-    {
-      id: 2,
-      date: "January-2026 — Present",
-      title: "Frontend Developer",
-      company: "Elix",
+      date: "December-2025 — May-2026",
+      title: "Lead Frontend Developer",
+      company: "ELIX",
       link: "https://www.elix.it.com",
       achievements: [
-        "Developed the frontend of the company website using React and Tailwind CSS.",
-        "Built responsive UI for core pages including the About section.",
-        "Integrated backend APIs to connect frontend with server data.",
-        "Maintained consistent design and smooth user experience across devices.",
+        "Led the frontend development of ELIX Arena, a real-time competitive learning platform for coding, aptitude, and technical skill assessments.",
+        "Developed responsive and scalable user interfaces using React.js, Next.js, and Tailwind CSS.",
+        "Built reusable UI components and maintained a modular frontend architecture to improve development efficiency.",
+        "Integrated REST APIs and collaborated closely with backend developers to deliver seamless user experiences.",
+        "Optimized application performance, responsiveness, and accessibility across multiple devices and browsers.",
+      ],
+    },
+    {
+      id: 2,
+      date: "July-2025 — December-2025",
+      title: "Frontend Developer (with Backend Exposure)",
+      company: "Gen2De (General Developer and Designer)",
+      achievements: [
+        "Built responsive and reusable web interfaces using React.js and Tailwind CSS.",
+        "Integrated REST APIs and optimized frontend data fetching for improved user experience.",
+        "Contributed to backend development using Node.js, Express.js, and MongoDB by implementing CRUD operations and API endpoints.",
+        "Collaborated with cross-functional teams using Git/GitHub in an agile development environment.",
+        "Enhanced application performance, responsiveness, and maintainability through clean, modular code.",
       ],
     },
   ];

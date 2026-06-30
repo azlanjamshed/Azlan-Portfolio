@@ -30,9 +30,13 @@ const Home = () => {
           <p className="text-gray-600 text-base sm:text-lg lg:text-xl max-w-[100%] sm:max-w-2xl leading-relaxed mb-8 sm:mb-10">
             {/* I build clean, fast, and user-friendly web applications with a focus
             on editorial clarity and technical precision. */}
-            I develop full-stack web applications using the MERN stack (MongoDB,
-            Express, React, Node.js), with a strong focus on performance,
-            maintainability, and intuitive user interfaces.
+            {/* I develop full-stack web applications using the MERN stack (MongoDB,
+            Express, React, Node.js) with a strong focus on performance,
+            maintainability, and intuitive user interfaces. */}
+            I craft modern, scalable web applications using the MERN stack
+            (MongoDB, Express.js, React.js, and Node.js) combining intuitive
+            user interfaces with robust backend systems to deliver fast,
+            reliable, and user-focused digital experiences.
           </p>
 
           {/* Buttons - Stack on tiny screens, sit side-by-side on larger screens */}

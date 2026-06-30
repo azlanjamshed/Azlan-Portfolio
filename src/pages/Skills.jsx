@@ -11,7 +11,7 @@ const Skills = () => {
     "JWT Authentication",
     "JEST",
   ];
-  const databaseSkills = ["MongoDB"];
+  const databaseSkills = ["MongoDB", "PostgreSQL"];
   const devTools = ["Postman", "Git", "GitHub", "VS Code"];
 
   return (
@@ -66,7 +66,7 @@ const Skills = () => {
               {databaseSkills.map((skill, index) => (
                 <span
                   key={index}
-                  className="bg-[#e9ecef] px-4 py-2 rounded-full text-sm font-medium text-slate-800"
+                  className="bg-white px-4 py-2 rounded-full text-sm font-medium text-slate-700 shadow-sm border border-slate-100"
                 >
                   {skill}
                 </span>

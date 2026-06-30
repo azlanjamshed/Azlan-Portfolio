@@ -29,7 +29,7 @@ const About = () => {
             or refining my workflow to ensure peak performance and accessibility
             in everything I build.
           </p> */}
-          <p>
+          {/* <p>
             I am a passionate{" "}
             <span className="text-[#087860] font-black">
               MERN Stack Developer
@@ -53,6 +53,33 @@ const About = () => {
             improve my problem-solving skills, and optimize workflows to build
             applications that are not only functional but also scalable,
             accessible, and production-ready.
+          </p> */}
+          <p>
+            I am a passionate{" "}
+            <span className="text-[#087860] font-black">
+              Full Stack Developer
+            </span>{" "}
+            with experience in building scalable, high-performance web
+            applications using the MERN stack and modern web technologies. I
+            enjoy turning ideas into intuitive, responsive, and production-ready
+            digital experiences through clean architecture and efficient code.
+          </p>
+
+          <p>
+            My expertise includes React.js, Next.js, Node.js, Express.js,
+            MongoDB, and Tailwind CSS, with hands-on experience developing
+            real-world applications, integrating REST APIs, and contributing to
+            both frontend and backend development. I have also led frontend
+            development for enterprise-level projects, focusing on reusable
+            components, performance optimization, and seamless user experiences.
+          </p>
+
+          <p>
+            I am passionate about continuous learning and enjoy exploring new
+            technologies, solving real-world problems, and building applications
+            that are scalable, maintainable, and user-centric. Whether working
+            independently or collaborating with a team, I strive to deliver
+            reliable software that creates meaningful impact.
           </p>
         </div>
       </div>
