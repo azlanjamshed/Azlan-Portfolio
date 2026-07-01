@@ -8,11 +8,11 @@ const Experience = () => {
     {
       id: 1,
       date: "December-2025 — May-2026",
-      title: "Lead Frontend Developer",
+      title: "Frontend Developer",
       company: "ELIX",
       link: "https://www.elix.it.com",
       achievements: [
-        "Led the frontend development of ELIX Arena, a real-time competitive learning platform for coding, aptitude, and technical skill assessments.",
+        "Developed the frontend for ELIX Arena, a real-time competitive learning platform for coding, aptitude, and technical skill assessments.",
         "Developed responsive and scalable user interfaces using React.js, Next.js, and Tailwind CSS.",
         "Built reusable UI components and maintained a modular frontend architecture to improve development efficiency.",
         "Integrated REST APIs and collaborated closely with backend developers to deliver seamless user experiences.",
