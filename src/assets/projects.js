@@ -3,7 +3,7 @@ import gsla from "../assets/gsla.avif";
 import mfc from "../assets/MFC.avif";
 import maxpro from "../assets/Maxpro.png";
 import SMS from "../assets/School-Management-System.avif";
-import QuizFlow from "../assets/QuizFlow.png";
+import QuizFlow from "../assets/Quizflow.png";
 const projects = [
   {
     image: gsla,

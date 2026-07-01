@@ -3,7 +3,15 @@ import Heading from "../Components/Heading";
 
 const Skills = () => {
   // Skill data organized by category
-  const frontendSkills = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React"];
+  const frontendSkills = [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+  ];
   const backendSkills = [
     "Node JS",
     "Express JS",

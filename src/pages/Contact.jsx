@@ -120,7 +120,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                   {...register("name", { required: true })}
                   className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl border-0 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-inset focus:ring-[#2b6559] placeholder:text-slate-400 outline-none transition-all text-sm sm:text-base"
                 />
@@ -133,7 +133,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="Your Email"
                   {...register("email", { required: true })}
                   className="w-full px-4 sm:px-5 py-3 sm:py-4 rounded-xl sm:rounded-2xl border-0 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-200 focus:ring-2 focus:ring-inset focus:ring-[#2b6559] placeholder:text-slate-400 outline-none transition-all text-sm sm:text-base"
                 />

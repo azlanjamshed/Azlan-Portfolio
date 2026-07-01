@@ -73,7 +73,7 @@ const Certificates = () => {
   //   }, [hasMany, nextSlide]);
 
   return (
-    <section id="certificates" className="py-20 md:py-32 bg-slate-50/50">
+    <section id="certificates" className="py-20 md:py-10 bg-slate-50/50">
       <div className="max-w-7xl mx-auto px-6 ">
         {/* Header & Navigation Arrows */}
         <Heading title="Accreditation" />
@@ -147,7 +147,7 @@ const Certificates = () => {
                   hasMany
                     ? "w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] flex-shrink-0"
                     : ""
-                } bg-white rounded-3xl p-8 border border-slate-100 shadow-sm flex flex-col`}
+                } bg-white rounded-3xl p-8 my-5 border border-slate-100 shadow-sm flex flex-col`}
               >
                 {/* SVG Icon matching the image */}
                 <div className="mb-6">

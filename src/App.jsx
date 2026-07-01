@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Footer from "./Components/Footer";
 import SocialCard from "./Components/SocialCard";
 import { useEffect } from "react";
+import ScrollProgress from "./Components/ScrollProgress";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
   }, []);
   return (
     <>
+      <ScrollProgress />
       <div className="block fixed  bottom-50 md:bottom-10  right-0 md:right-5 z-50">
         <SocialCard />
       </div>
