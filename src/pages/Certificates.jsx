@@ -147,7 +147,7 @@ const Certificates = () => {
                   hasMany
                     ? "w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] flex-shrink-0"
                     : ""
-                } bg-white rounded-3xl p-8 my-5 border border-slate-100 shadow-sm flex flex-col`}
+                } bg-white rounded-3xl p-8 my-5 border border-slate-100 shadow-sm flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-lg`}
               >
                 {/* SVG Icon matching the image */}
                 <div className="mb-6">

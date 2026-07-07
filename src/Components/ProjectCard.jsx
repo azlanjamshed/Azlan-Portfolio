@@ -25,7 +25,7 @@ const ProjectCard = ({
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row bg-white rounded-[2rem] border border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-300 max-w-5xl mx-auto my-8 p-6 lg:p-8 gap-8 items-center">
+    <div className="relative flex flex-col lg:flex-row bg-white rounded-[2rem] border border-slate-100 shadow-sm  max-w-5xl mx-auto my-8 p-6 lg:p-8 gap-8 items-center transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
       {/* "In Progress" Badge */}
       {status === "In Progress" && (
         <span className="absolute top-6 right-6 lg:top-8 lg:right-8 bg-amber-50 border border-amber-200 text-amber-600 text-xs px-4 py-1.5 rounded-full font-semibold z-10 shadow-sm flex items-center gap-1.5">
