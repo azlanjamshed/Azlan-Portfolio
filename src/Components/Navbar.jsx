@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { IoDownloadOutline } from "react-icons/io5";
-import cv from "/Azlan_Jamshed.pdf";
+import cv from "/Azlan_Jamshed_Full_Stack_2027.pdf";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
